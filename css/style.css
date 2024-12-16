@@ -22,7 +22,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
@@ -36,7 +37,8 @@ h6 {
   background-image: url('../images/header-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-position: center;
+  min-height: 100vh;
 }
 
 .header-top {
@@ -70,4 +72,42 @@ h6 {
 
 .header-phone {
   color: #262c27;
+}
+
+.header-content {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-content-box {
+  max-width: 550px;
+  text-align: center;
+  margin-right: 30px;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header-title {
+  text-transform: uppercase;
+  font-size: 64px;
+  line-height: 71px;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.header-text + .header-text {
+  margin-top: 20px;
+}
+
+.header-decor-text {
+  position: absolute;
+  top: 0;
 }
