@@ -38,3 +38,36 @@ h6 {
   background-size: cover;
   height: 100vh;
 }
+
+.header-top {
+  display: flex;
+  padding: 57px 0;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 100px;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.logo path {
+  transition: fill 0.3s ease;
+}
+
+.logo:hover path {
+  fill: #0093a1;
+}
+
+.header-btn {
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  background-color: #262c27;
+  padding: 12px 77px 9px 71px;
+}
+
+.header-phone {
+  color: #262c27;
+}
