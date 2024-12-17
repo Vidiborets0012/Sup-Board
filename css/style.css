@@ -110,6 +110,7 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 
 .header-content-box {
@@ -140,5 +141,37 @@ p {
 
 .header-decor-text {
   position: absolute;
-  top: 0;
+  bottom: -60px;
+  color: #0093a1;
+}
+
+.header-decor-text-one,
+.header-decor-text-two {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 130px;
+  line-height: 145px;
+  opacity: 0.3;
+}
+
+.header-decor-text-one {
+  z-index: 1;
+  right: 145px;
+  bottom: 50px;
+}
+
+.header-decor-text-two {
+  z-index: 4;
+  left: 265px;
+  bottom: -84px;
+}
+
+.header-decor-text-three {
+  width: 360px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  right: 145px;
+  z-index: 4;
 }
