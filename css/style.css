@@ -39,6 +39,37 @@ p {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/header-decor.svg);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 456px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(224px);
+  z-index: 2;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  background-image: url(../images/header-decor.svg);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 456px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(408px) rotate(180deg);
+  z-index: 3;
 }
 
 .header-top {
