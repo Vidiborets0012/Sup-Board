@@ -183,6 +183,8 @@ p {
   background-position: center;
   position: relative;
   margin-top: 180px;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 
 .info::before {
@@ -194,4 +196,54 @@ p {
   left: 0;
   right: 0;
   transform: translateY(-180px);
+}
+
+.info-top {
+  display: flex;
+  margin-bottom: 65vh;
+}
+
+.info-top-text {
+  padding-top: 230px;
+  width: 290px;
+  color: #fff;
+  position: relative;
+}
+
+.info-top-text + .info-top-text {
+  margin-left: 87px;
+}
+
+.info-top-text-one {
+  padding-bottom: 125px;
+}
+
+.info-top-text-two {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+
+.info-top-img {
+  margin-left: 82px;
+  position: relative;
+  z-index: 6;
+}
+
+.popup-btn {
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.popup-btn span {
+  display: block;
+  padding-top: 12px;
+  color: #fff;
+}
+
+.info-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
