@@ -175,3 +175,23 @@ p {
   right: 145px;
   z-index: 4;
 }
+
+.info {
+  background-image: url('../images/info-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 180px;
+}
+
+.info::before {
+  content: '';
+  position: absolute;
+  height: 180px;
+  background-color: #262c27;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-180px);
+}
