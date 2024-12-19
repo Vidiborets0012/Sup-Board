@@ -578,3 +578,9 @@ img {
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 50px;
 }
+
+.footer-menu-list {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
