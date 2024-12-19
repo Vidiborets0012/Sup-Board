@@ -566,3 +566,15 @@ img {
   color: #000;
   cursor: pointer;
 }
+
+.footer-social-title {
+  margin-bottom: 28px;
+  font-weight: 700;
+}
+
+.footer-gallery {
+  display: grid;
+  gap: 52px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
+}
