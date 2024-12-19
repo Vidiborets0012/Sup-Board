@@ -584,3 +584,15 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.footer-logo {
+  align-self: flex-start;
+}
+
+.footer-logo path {
+  transition: fill 0.3s ease;
+}
+
+.footer-logo:hover path {
+  fill: #0093a1;
+}
