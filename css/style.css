@@ -294,7 +294,6 @@ ul {
 
 .buy {
   padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 .buy-inner {
@@ -374,4 +373,17 @@ ul {
   border-color: #b9c400;
   background-color: #b9c400;
   color: #262c27;
+}
+
+.technology {
+  margin-bottom: 150px;
+}
+
+.technology-top {
+  background-image: url('../images/tech-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 110vh;
 }
