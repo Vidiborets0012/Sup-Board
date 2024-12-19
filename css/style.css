@@ -33,6 +33,14 @@ ul {
   list-style: none;
 }
 
+.title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 67px;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 1230px;
   margin: 0 auto;
@@ -236,6 +244,7 @@ ul {
 }
 
 .popup-btn {
+  position: absolute;
   text-align: center;
   border: none;
   background-color: transparent;
@@ -249,7 +258,6 @@ ul {
 }
 
 .info-btn {
-  position: absolute;
   bottom: 0;
   right: 0;
 }
@@ -262,11 +270,6 @@ ul {
 }
 
 .info-specs-title {
-  font-family: 'Comfortaa', sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
   width: 250px;
 }
 
@@ -308,10 +311,6 @@ ul {
 }
 
 .buy-title {
-  text-transform: uppercase;
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 60px;
-  line-height: 67px;
   color: #0093a1;
   margin-bottom: 50px;
 }
@@ -384,6 +383,41 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.technology-top-inner {
   position: relative;
   min-height: 110vh;
+}
+
+.technology-btn {
+  top: 50vh;
+  right: 350px;
+}
+
+.technology-top-box {
+  position: absolute;
+  left: 0;
+  bottom: 85px;
+}
+
+.technology-title {
+  max-width: 470px;
+  margin-bottom: 62px;
+}
+
+.technology-list {
+  margin: 0;
+  padding: 0 0 0 24px;
+}
+
+.technology-list-item {
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.technology-list-item:not(:last-child) {
+  margin-bottom: 15px;
 }
