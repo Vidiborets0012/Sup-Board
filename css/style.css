@@ -649,6 +649,28 @@ img {
   }
 }
 
+@media screen and (max-width: 1175px) {
+  .gallery-box {
+    flex-wrap: wrap;
+  }
+
+  .gallery-min {
+    margin-top: 0;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    width: 100%;
+  }
+
+  .gallery-text {
+    width: 100%;
+  }
+
+  .gallery-min-img {
+    width: 100%;
+    align-self: stretch;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .info-top {
     display: block;
@@ -714,6 +736,10 @@ img {
     font-size: 48px;
     line-height: 56px;
   }
+
+  .gallery-min {
+    padding: 20px 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -747,6 +773,19 @@ img {
     line-height: 24px;
     right: 0;
     bottom: -44px;
+  }
+
+  .gallery-min::before {
+    display: none;
+  }
+
+  .gallery-min {
+    gap: 10px;
+  }
+
+  .technology-title {
+    font-size: 32px;
+    line-height: 36px;
   }
 }
 
