@@ -647,6 +647,17 @@ img {
     width: 100%;
     max-width: 600px;
   }
+
+  .gallery-max {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+  }
+
+  .gallery-max-img {
+    width: 100%;
+    align-self: stretch;
+  }
 }
 
 @media screen and (max-width: 1175px) {
@@ -704,6 +715,15 @@ img {
   .buy-price {
     bottom: auto;
     top: -350px;
+  }
+
+  .gallery-min {
+    margin-bottom: 50px;
+  }
+
+  .gallery-max-text {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 
@@ -779,7 +799,8 @@ img {
     display: none;
   }
 
-  .gallery-min {
+  .gallery-min,
+  .gallery-max {
     gap: 10px;
   }
 
